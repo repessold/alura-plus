@@ -48,6 +48,7 @@ body {
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
+    border: 0.5px solid var(--branco-principal);
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -63,9 +64,14 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal);
-    margin: 0;
-    display: inline-block;
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    
 }
 
 .secundario__botao {
@@ -78,8 +84,6 @@ body {
     color: var(--cinza-secundario);
 
 }
-
-
 
 .container__caixa {
     margin: 0 6em;
