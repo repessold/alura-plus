@@ -118,3 +118,40 @@ body {
 .dispositivos{
     text-align: center;
 }
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    margin: 3em 0 1em;
+    padding: 0 1em;
+    list-style-type: none;
+    color: white
+}
+
+.rodape__texto {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 1em;
+    list-style-type: none;
+   
+}
+
+.lista__link a{
+    padding: 0 0.5em;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+.lista__link a:hover {
+    color: white;
+}
+
+.lista__link a:active {
+    color: white
+}
